@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="">GitHub</a>
+        <a href="">LinkedIn</a>
+        <a href="">Resume</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <section class="banner">
+        <h2>Your name</h2>
+        <p>2-3 sentences about yourself</p>
+    </section>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+    <footer class="footer-basic-centered">
+        <p class="footer-links">
+            <a href="#">Facebook</a>
+            ·
+            <a href="#">Twitter</a>
+            ·
+            <a href="#">LinkedIn</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-your-name">Your name © 2017</p>
+
+    </footer>
+</body>
+</html>
