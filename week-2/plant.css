@@ -1,7 +1,9 @@
 html {
   background-image: url(plant-background.jpg);
   background-size: 100%;
-}
+  font-family: "Georgia";
+  font-size: 16;
+  }
 
 header {
   padding-top: 5px;
@@ -13,17 +15,21 @@ header {
 body {
 }
 
+.cartoon {
+  text-align: center;
+}
+
 h3 {
-  padding: 5px;
-  background-color: #fff;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.8);
   display: inline-block;
   border-radius: 10px;
 }
 
-p {
-  max-width: 400px;
+p, .references {
   padding: 5px;
   background-color: rgba(255,255,255,0.8);
+  display: inline-block;
   border-radius: 10px;
 }
 
@@ -33,7 +39,7 @@ table, th, td {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) {
-  background: #79d279;
+  background: rgba(121,210,121,0.8);
 }
 
 tr:nth-of-type(even) {
