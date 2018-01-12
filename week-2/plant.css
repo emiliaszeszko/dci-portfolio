@@ -1,4 +1,10 @@
 html {
+  background-image: url(plant-background.jpg);
+  background-size: 100%;
+}
+
+header {
+  background-color: white;
 }
 
 body {
@@ -10,7 +16,11 @@ table, th, td {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) {
-  background: #B2E6D9;
+  background: #79d279;
+}
+
+tr:nth-of-type(even) {
+  background: white;
 }
 
 th {
