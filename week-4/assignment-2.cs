@@ -66,6 +66,19 @@ namespace assignment_2
                 m = m * k;
             }
             Console.WriteLine(m);
+
+            //Now using recursion//
+            int o;
+            Console.WriteLine("Enter the number for which you would like to calculate the factorial:");
+            o = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(Fact(o));
+        }
+
+        static int Fact(int num) {
+          if (num == 1) {
+            return 1;
+          }
+          return num * Fact(num - 1);
         }
     }
 }
