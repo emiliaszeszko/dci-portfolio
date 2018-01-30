@@ -40,7 +40,8 @@ namespace assignment_2
                 num++;
                 Console.WriteLine(num);
                 num++;
-            }*/
+            }
+            Console.ReadLine();*/
 
             //now want to solve this for any numbers not just those specified - DRY code//
             int value = 1;
@@ -55,6 +56,7 @@ namespace assignment_2
                 }
                 Console.Write("\n");
             }
+            Console.ReadLine();
 
             //2.2 Write a C# program to calculate a factorial of a given number//
             int m;
@@ -66,12 +68,14 @@ namespace assignment_2
                 m = m * k;
             }
             Console.WriteLine(m);
+            Console.ReadLine();
 
             //Now using recursion//
             int o;
             Console.WriteLine("Enter the number for which you would like to calculate the factorial:");
             o = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(Fact(o));
+            Console.ReadLine();
         }
 
         static int Fact(int num) {

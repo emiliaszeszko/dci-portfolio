@@ -29,6 +29,7 @@ namespace first_project_visual_studio
             {
                 Console.WriteLine("Please input an integer");
             }
+            Console.ReadLine();
 
             //Problem #2 if else if else:
             int maths, phys, chem;
@@ -58,6 +59,7 @@ namespace first_project_visual_studio
             {
                 Console.WriteLine("Denied");
             }
+            Console.ReadLine();
             //why did we add the following line below?
             //Console.ReadLine();
 
@@ -65,6 +67,7 @@ namespace first_project_visual_studio
             int num = 0;
             while (++num < 11)
                 Console.WriteLine(num);
+                Console.ReadLine();
         }
     }
 }

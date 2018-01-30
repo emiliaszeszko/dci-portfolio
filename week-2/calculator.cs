@@ -23,6 +23,7 @@ namespace simple_calculator
             Console.WriteLine("Pick from the following options:");
             Console.WriteLine("1 - Addition, 2 - Subtraction, 3 - Multiplication, 4 - Division");
             choice = Convert.ToInt32(Console.ReadLine());
+            Console.ReadLine();
 
             switch (choice)
             {

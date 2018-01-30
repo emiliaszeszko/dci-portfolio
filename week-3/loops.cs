@@ -13,6 +13,7 @@ namespace csharp_practice
                 Console.WriteLine("The value of i = {0}", i);
                 i++;
             }
+            Console.ReadLine();
         }
         //do while loop
         private static void DoWhileTest()
@@ -24,6 +25,7 @@ namespace csharp_practice
                 i++;
             }
             while (i <= 5);
+            Console.ReadLine();
         }
         //for loop
         private static void ForTest()
@@ -32,6 +34,7 @@ namespace csharp_practice
             {
                 Console.WriteLine("The value of i = {0}", i);
             }
+            Console.ReadLine();
         }
     }
 }

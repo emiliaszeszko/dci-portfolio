@@ -20,6 +20,7 @@ namespace functions_practice
             int c = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(ReturnLargestInt(a,b,c));
+            Console.ReadLine();
         }
 
         static bool VowelTest(char letter)
